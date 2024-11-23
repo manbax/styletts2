@@ -16,6 +16,8 @@ import gradio as gr
 import styletts2importable
 import ljspeechimportable
 import torch
+import nltk
+nltk.download('punkt_tab')
 import os
 from txtsplit import txtsplit
 import numpy as np
